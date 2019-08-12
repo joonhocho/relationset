@@ -1,6 +1,6 @@
 {
   "name": "relationset",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compare two sets (array of items) and get relationships between them (Disjoint | Intersecting | Subset | Superset | Equal)",
   "keywords": [
     "relationship",
