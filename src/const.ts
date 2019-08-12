@@ -69,7 +69,7 @@ export interface IKeySet {
 
 export type Element = number | string;
 
-export type FiniteSet = number[] | string[];
+export type FiniteSet = Element[];
 
 export interface Complement<T extends FiniteSet> {
   Not: T;

@@ -15,11 +15,11 @@ export const haveCommonElements = <T extends FiniteSet>(
   }
 
   if (aLen === 1) {
-    return b.indexOf(a[0] as any) !== -1;
+    return b.indexOf(a[0]) !== -1;
   }
 
   if (bLen === 1) {
-    return a.indexOf(b[0] as any) !== -1;
+    return a.indexOf(b[0]) !== -1;
   }
 
   const map: IKeySet = {};
